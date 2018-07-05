@@ -252,7 +252,11 @@ form textarea {
 }
 
 .pb30 {
-    padding-bottom: 35px;
+    padding-bottom: 30px;
+}
+
+.pb50 {
+    padding-bottom: 50px;
 }
 .pt30 {
     padding-top: 10px;
@@ -346,11 +350,11 @@ form textarea {
 
 #hero {
 	background: url('../img/bg8.jpg') 50% 0 repeat fixed;
-	min-height: 500px;
+	min-height: 460px;
 	position: relative;
 	display: table;
 	width: 100%;
-	padding: 40px 0;
+	padding: 0px 0;
 	color: white;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
