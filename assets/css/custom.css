@@ -65,7 +65,7 @@ blockquote {
 
 blockquote cite {
 	display: block;
-	color: #777;
+/*	color: #777;*/
 	margin: 15px 0 0 0;
 }
 
@@ -267,6 +267,9 @@ form textarea {
 .bg8 {
     background: url('../img/bg8.jpg') no-repeat;
     background-size: cover;
+}
+.bg1{
+	background-color: rgba(0,0,0,.15)!important;
 }
 
 .heading1:before {
@@ -513,7 +516,7 @@ section.main-content {
 }
 
 #instructor {
-	background: white url('../img/profile-1.jpg') 90% -10px no-repeat;
+	background: white url('../img/profile-1.jpg') 90% no-repeat;
 }
 
 #instructor h2 {

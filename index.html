@@ -134,52 +134,42 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="form-group">
 								<input type="text" class="form-control" name="name" oninvalid="setCustomValidity('Please Enter Only Alphabets ')" onchange="try{setCustomValidity('')}catch(e){}" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue"
-								  id="fname" data-rules-required="true" data-rules-required-message="This fild is mandatory (personalized message)" placeholder="Name *">
+								  id="fname" data-rules-required="true" data-rules-required-message="This fild is mandatory (personalized message)" placeholder="Name">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="form-group">
-								<input type="text" class="form-control" name="custom phone" oninvalid="setCustomValidity('Invalid Mobile Number ')" onchange="try{setCustomValidity('')}catch(e){}" placeholder="Cell Number *" id="phone">
+								<input type="text" class="form-control" name="custom phone" oninvalid="setCustomValidity('Invalid Mobile Number ')" onchange="try{setCustomValidity('')}catch(e){}" placeholder="Phone Number" id="phone">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="form-group">
-								<input type="email" class="form-control" id="email" name="email" oninvalid="setCustomValidity('Invalid email address')" onchange="try{setCustomValidity('')}catch(e){}" placeholder="Work Email  *">
+								<input type="email" class="form-control" id="email" name="email" oninvalid="setCustomValidity('Invalid email address')" onchange="try{setCustomValidity('')}catch(e){}" placeholder="Email Address">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="form-group">
 								<input type="text" class="form-control" name="custom website" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" id="website" data-rules-required="true" data-rules-required-message="This fild is mandatory (personalized message)"
-								  placeholder="Website URL (If Any)">
+								  placeholder="Alternate Number">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="form-group">
 								<select class="form-control" name="custom found" id="found">
-	                          	<option value="">Found Us On? *</option>
+	                          	<option value="">Found Us On</option>
+	                            <option value="Reference">Reference</option>
 	                            <option value="Google Search">Google Search</option>
-	                            <option value="Display Ad">Display Ad</option>
 	                            <option value="Facebook">Facebook</option>
 	                            <option value="LinkedIn">LinkedIn</option>
 	                            <option value="Twitter">Twitter</option>
 	                            <option value="Yahoo">Yahoo</option>
-	                            <option value="Bing">Bing</option>
-	                            <option value="Reference">Reference</option>
 	                            <option value="Others">Others</option>
 	                          </select>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="form-group">
-								<select class="form-control" name="custom budget" id="budget">
-	                          	<option value="">Budget Per Month? *</option>
-	                            <option value="Below 25k">Below 25k</option>
-	                            <option value="25k to 50k">25k to 50k</option>
-	                            <option value="50k to 1Lakh">50k to 1Lakh</option>
-	                            <option value="1 Lakh to 2 Lakhs">1 Lakh to 2 Lakhs</option>
-	                            <option value="2 Lakhs to 5lakhs">2 Lakhs to 5 Lakhs</option>
-	                            <option value="5 Lakhs+">5 Lakhs+</option>
-	                          </select>
+								<input type="text" class="form-control" name="Place"  onchange="try{setCustomValidity('')}catch(e){}" placeholder="Location" id="phone">
 							</div>
 						</div>
 						<div class="clearfix"></div>
@@ -265,13 +255,13 @@
 	<!-- TESTIMONIALS
 ================================================== -->
 	<section id="kudos" data-type="background" data-speed="5">
-		<div class="container">
-			<div class="row">
+		<div class="container bg1">
+			<div class="row bg1">
 
-				<div class="col-sm-8 col-sm-offset-2">
+				<div class="col-sm-8 col-sm-offset-2 bg1">
 					<h2>What Clients Are Saying About Us</h2>
 					<!-- TESTIMONIAL -->
-					<div class="row testimonial">
+					<div class="row testimonial bg1">
 						<div class="col-sm-4">
 							<a href="http://www.oceancool.in/" target="_blank"><img   style="background:blue;" src="assets/img/oceancool-logo.png" alt="Ocean Cool"></a>
 						</div>
@@ -288,7 +278,7 @@
 					<!-- row -->
 
 					<!-- TESTIMONIAL -->
-					<div class="row testimonial">
+					<div class="row testimonial bg1">
 						<div class="col-sm-4">
 							<a href="http://www.wunderfit.in/" target="_blank"><img src="assets/img/wunderfit-logo.jpg" alt="WunderFit"></a>
 						</div>
@@ -304,7 +294,7 @@
 					<!-- row -->
 
 					<!-- TESTIMONIAL -->
-					<div class="row testimonial">
+					<div class="row testimonial bg1">
 						<div class="col-sm-4">
 							<a href="http://www.oceancool.in/" target="_blank"><img src="assets/img/dolphin-logo.png" alt="Dolphin Food Catering" style="background: white;"></a>
 						</div>
