@@ -984,6 +984,12 @@ footer li.signup-link a:hover {
 	color:white;
 }
 
+.font18{
+	font-size: 18px;
+}
+
+/*mobile media query*/
+
 @media screen and (max-width : 568px) {
 .mobile-display{
 	display:none
@@ -994,4 +1000,12 @@ footer li.signup-link a:hover {
 .pl10{
 	padding-left: 31%;
 }
+}
+
+/*mac media query*/
+
+@media screen and (max-width : 1439px) {
+	.font18{
+		font-size: 13px;
+	}
 }
