@@ -224,6 +224,7 @@ button:focus,
 .section-wrapper {
     padding : 50px;
     padding-top: 0px;
+    padding-bottom: 0px;
     }
 
 @media (max-width : 480px) {
@@ -242,7 +243,7 @@ button:focus,
 
 .section-title h2 {
     margin-bottom : 5px;
-    color         : #bebece;
+    color         : lightsteelblue;;
     }
 
 /*-----------------------------
@@ -431,6 +432,7 @@ button:focus,
 
 .portfolio-item .portfolio-info {
     position   : absolute;
+    text-align: center;
     bottom     : 0;
     padding    : 30px 15px 5px;
     width      : 100%;
@@ -464,7 +466,7 @@ button:focus,
  *-------------------*/
 
 .content-item {
-    margin-bottom : 40px;
+    margin-bottom : 0px;
     }
 
 .content-item h3 {
