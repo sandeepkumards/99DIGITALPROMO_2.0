@@ -268,6 +268,9 @@ form textarea {
     background: url('../img/bg8.jpg') no-repeat;
     background-size: cover;
 }
+.bgstar {
+    background: url('../img/star.png') no-repeat;
+}
 .bg1{
 	background-color: rgba(0,0,0,.15)!important;
 }
@@ -354,7 +357,7 @@ form textarea {
 #hero {
 	background: url('../img/bg8.jpg') 50% 0 repeat fixed;
 	min-height: 460px;
-	position: relative;
+/*	position: relative;*/
 	display: table;
 	width: 100%;
 	padding: 0px 0;
@@ -816,4 +819,155 @@ footer li.signup-link a:hover {
 		width: 100%;
 		margin-right: 0;
 	}
+}
+
+.social-icon {
+  position: fixed;
+  top: 50%;
+	right:1px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.social-icon a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.social-icon a:hover {
+    background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+.phone {
+  background: #bb0000;
+  color: white;
+}
+
+@media screen and (max-width : 568px) {
+.mobile-display{
+	display:none
+}
+}
+
+#burst-8 {
+
+    background: yellow;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    text-align: center;
+    -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20eg);
+}
+#burst-8:before {
+   content: "Call Now 7045769714";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 120px;
+    background: yellow;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
+}
+
+#star-five {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: red;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid red;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+#star-five:before {
+   border-bottom: 80px solid red;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+}
+#star-five:after {
+   position: absolute;
+   display: block;
+   color: yellow;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+	 text-align: center;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid red;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '7045769712';
+}
+
+
+.call-icon {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.call-icon a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
 }
