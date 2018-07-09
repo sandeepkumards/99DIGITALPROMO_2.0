@@ -843,6 +843,23 @@ footer li.signup-link a:hover {
     background-color: #000;
 }
 
+.mobile-social-icon {
+	position: relative;
+}
+
+.mobile-social-icon a {
+  display: inline-block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.mobile-social-icon a:hover {
+    background-color: #000;
+}
+
 .facebook {
   background: #3B5998;
   color: white;
@@ -987,12 +1004,20 @@ footer li.signup-link a:hover {
 .font18{
 	font-size: 18px;
 }
-
+.desktop-display{
+display: block;
+}
+.mobile-display{
+	display: none;
+}
 /*mobile media query*/
 
 @media screen and (max-width : 568px) {
-.mobile-display{
+.desktop-display{
 	display:none
+}
+.mobile-display{
+	display: grid;
 }
 .pl23{
 	padding-left: 0px;
