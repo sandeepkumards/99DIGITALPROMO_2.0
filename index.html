@@ -142,36 +142,31 @@
 				<h2 class="heading1">START A PROJECT With Us</h2>
 				<div class="clearfix mb30"></div>
 				<div class="form-wrap">
-					<form name="enquiry" method="post" action="https://www.aweber.com/scripts/addlead.pl" onsubmit="return checkform()">
-						<input type="hidden" name="listname" value="awlist4723773">
-						<input type="hidden" name="redirect" value="http://www.digital-samrat.com/landing/digital-marketing-thank-you.html" id="redirect_890c314c8107f743a67c5c8b7a72d1b6">
-						<input type="hidden" name="meta_redirect_onlist" value="http://www.digital-samrat.com/landing/digital-marketing.html">
-						<input type="hidden" name="meta_required" value="name,email,custom phone,custom found,custom budget">
+					<form role="form" action="https://formspree.io/99digitalpromo@gmail.com" method="POST" class="clearfix">
+
 						<div class="col-md-4 col-sm-6">
 							<div class="form-group">
-								<input type="text" class="form-control" name="name" oninvalid="setCustomValidity('Please Enter Only Alphabets ')" onchange="try{setCustomValidity('')}catch(e){}" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue"
-								  id="fname" data-rules-required="true" data-rules-required-message="This fild is mandatory (personalized message)" placeholder="Name">
+								<input type="text" class="form-control" name="Name" id="fname"  placeholder="Name">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="form-group">
-								<input type="text" class="form-control" name="custom phone" oninvalid="setCustomValidity('Invalid Mobile Number ')" onchange="try{setCustomValidity('')}catch(e){}" placeholder="Phone Number" id="phone">
+								<input type="text" class="form-control" name="Mobile No" placeholder="Phone Number" id="phone">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="form-group">
-								<input type="email" class="form-control" id="email" name="email" oninvalid="setCustomValidity('Invalid email address')" onchange="try{setCustomValidity('')}catch(e){}" placeholder="Email Address">
+								<input type="email" class="form-control" id="email" name="Email"  placeholder="Email Address">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="form-group">
-								<input type="text" class="form-control" name="custom website" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" id="website" data-rules-required="true" data-rules-required-message="This fild is mandatory (personalized message)"
-								  placeholder="Alternate Number">
+								<input type="text" class="form-control" name="Alternate No"  id="website" placeholder="Alternate Number">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="form-group">
-								<select class="form-control" name="custom found" id="found">
+								<select class="form-control" name="Found Us On" id="found">
 	                          	<option value="">Found Us On</option>
 	                            <option value="Reference">Reference</option>
 	                            <option value="Google Search">Google Search</option>
@@ -185,12 +180,18 @@
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<div class="form-group">
-								<input type="text" class="form-control" name="Place" onchange="try{setCustomValidity('')}catch(e){}" placeholder="Location" id="phone">
+								<input type="text" class="form-control" name="Location"  placeholder="Location" id="phone">
 							</div>
+						</div>
+						<div class="form-group">
+								<input type="hidden" name="_next" value="http://localhost/99DIGITALPROMO_2.0/thanks.html" />
+						</div>
+						<div class="form-group">
+							<input  type="hidden" name="subject" value="From Home Page" class="form-control" id="InputSubject" placeholder="Subject">
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-md-12">
-							<input type="submit" value="Submit" name="submit" class="sgbtn2">
+							<input type="submit" value="Submit"  class="sgbtn2">
 						</div>
 						<div class="clearfix"></div>
 					</form>
@@ -430,7 +431,7 @@
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
 					<h2>Are you ready to take your Business to the <strong>next level</strong>?</h2>
-					<p><a href="" class="btn btn-lg btn-block btn-success">Yes, Contact Us!</a></p>
+					<p><a href="contact.html" class="btn btn-lg btn-block btn-success">Yes, Contact Us!</a></p>
 				</div>
 				<!-- end col -->
 			</div>
