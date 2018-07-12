@@ -11,7 +11,7 @@
 	<meta name="author" content="">
 	<link rel="icon" href="img/favicon.ico">
 
-	<title>Blog | Bootstrap to Wordpress</title>
+	<title>Blog Post | Bootstrap to Wordpress</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -34,89 +34,72 @@
 
 </head>
 
-<body class="blog">
+<body class="single">
 
 
-		<!-- HEADER
+
+	<!-- HEADER
+		================================================== -->
+	<header class="site-header" role="banner">
+
+		<!-- NAVBAR
 			================================================== -->
-		<header class="site-header" role="banner">
+		<div class="navbar-wrapper">
 
-			<!-- NAVBAR
-				================================================== -->
-			<div class="navbar-wrapper">
-
-				<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-					<div class="container">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-							<a class="navbar-brand" href="index.html"><img src="assets/img/logo-new.png" alt="Digital marketing"></a>
-						</div>
-						<div class="navbar-collapse collapse">
-							<ul class="nav navbar-nav navbar-right">
-								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="services.html">Our Services</a></li>
-								<li><a href="company.html">About Company</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="aboutme.html">About Me</a></li>
-								<li><a href="contact.html">Contact Us</a></li>
-							</ul>
-						</div>
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						<a class="navbar-brand" href="index.html"><img src="assets/img/logo-new.png" alt="Digital marketing"></a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="services.html">Our Services</a></li>
+							<li><a href="company.html">About Company</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="aboutme.html">About Me</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
 					</div>
 				</div>
-
 			</div>
-		</header>
-		<div class="social-icon desktop-display">
-			<a target="_blank" href="https://www.facebook.com/99digitalpromo/" class="facebook"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" href="https://twitter.com/luckyruby2010" class="twitter"><i class="fa fa-twitter"></i></a>
-			<a target="_blank" href="https://plus.google.com/u/0/113251283429668094962" class="google"><i class="fa fa-google"></i></a>
-			<a target="_blank" href="https://www.linkedin.com/in/ruby-kumari-398117157/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-			<!--<a href="#" class="phone"><i class="fa fa-phone"></i></a>-->
-		</div>
-	<section class="feature-image feature-image-default-alt" data-type="background" data-speed="2">
-		<h1 class="page-title">Blog</h1>
-	</section>
 
-	<!-- BLOG CONTENT
+		</div>
+	</header>
+
+	<div class="call-icon mobile-display">
+		<a href="#">
+			<div class="bgstar"></div>
+		</a>
+	</div>
+
+	<div class="social-icon desktop-display">
+		<a target="_blank" href="https://www.facebook.com/99digitalpromo/" class="facebook"><i class="fa fa-facebook"></i></a>
+		<a target="_blank" href="https://twitter.com/luckyruby2010" class="twitter"><i class="fa fa-twitter"></i></a>
+		<a target="_blank" href="https://plus.google.com/u/0/113251283429668094962" class="google"><i class="fa fa-google"></i></a>
+		<a target="_blank" href="https://www.linkedin.com/in/ruby-kumari-398117157/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+		<!--<a href="#" class="phone"><i class="fa fa-phone"></i></a>-->
+	</div>
+
+	<!-- MAIN CONTENT
 	================================================== -->
 	<div class="container">
 		<div class="row" id="primary">
 
-			<main id="content" class="col-sm-8" style="font-family:times;" role="main">
+			<div id="content" class="col-sm-8" style="font-family:times;">
 
 				<article class="post">
 					<header>
-						<h3><a href="post.html">Why facebook Marketing is Important for Business</a></h3>
+						<h1>How to Do On-Page SEO</h1>
 						<div class="post-details">
-							<i class="fa fa-user"></i> Ruby
-							<i class="fa fa-clock-o"></i> <time>july 12, 2018</time>
-							<!-- post-comments-badge -->
-						</div>
-						<!-- post-details -->
-					</header>
-					<div class="post-image">
-						<img src="assets/img/facebook.jpg">
-					</div>
-					<!-- post-image -->
-					<div class="post-excerpt">
-						<p>Businesses use Facebook to reach potential and current customers by using Facebook’s plug-ins to make their websites more social, publishing useful content on their Facebook Pages, and by conducting highly targeted ad campaigns within the Facebook community. The primary tool for businesses isthe Facebook Page, which has features that allow businesses to publish content, to engage with fans who respond to that content, and to analyze how Facebook users talk about their business with their Facebook friends.... <a href="post.html">continue reading &raquo;</a></p>
-					</div>
-					<!-- post-excerpt -->
-				</article>
-				<!-- post -->
-
-				<article class="post">
-					<header>
-						<h3><a href="post1.html">How to Do On-Page SEO</a></h3>
-						<div class="post-details">
-							<i class="fa fa-user"></i> Ruby
-							<i class="fa fa-clock-o"></i> <time>July 16, 2018</time>
-							<!-- post-comments-badge -->
+							<i class="fa fa-user"></i>Ruby
+							<i class="fa fa-clock-o"></i> <time>July 13, 2018</time>
 						</div>
 						<!-- post-details -->
 					</header>
@@ -124,33 +107,103 @@
 						<img src="assets/img/seo-blog.png">
 					</div>
 					<!-- post-image -->
-					<div class="post-excerpt">
+					<div class="post-body">
 						<p>The first things google check in your websites by doing indexing is the information provided by the webmaster. Those information is optimise from your html architure also known as tag.</p>
-                       <p> In the next step google will analysise the quality of content website on the various parameters and the compare  it with the tag that we have given. The above Process helps Google Search(SE) to determine the posting your website inrelevant to different context.. <a href="post1.html">continue reading &raquo;</a></p>
+             <p> In the next step google will analysise the quality of content website on the various parameters and the compare  it with the tag that we have given. The above Process helps Google Search(SE) to determine the posting your website inrelevant to different context.</p>
+
+						<p>This process also help webmaster to decide visibility your website on Search Engine. These are various factor you can track in visibility your websites, that make increase CTR 38%. All the above comes under single umberalla (umberalla is SEO).</p>
+            <p> Meta tag includes:(1)<strong>Meta title/SEO Title/Page Title</strong>(2)<strong>Meta Description</strong>(3)<strong>Meta Keywords</strong></p>
+						<h4>How to write SEO title</h3>
+						<p>As your snippet on google strat with SEO title, i.e what makes remove important components your SEO. If you will write SEO title properly it will help you to get good CTR alone with that it also saves from google ecliples</p>
+						<p>(1) Use focus keywords in your SEO title.</p>
+						<p>(2) Watch the length of your SEO title, exact character length can't be determine because of various screen identifier available but 60-70 characters are recommended. (2.1) Do not use all captial letter for SEO title nor every words start with captial letter. (2.2) In case if you have long SEO Meta Tag try to seperate (|).</p>
+            <p>(3) Do not over stuffing your SEO title.</p>
+            <p>(4) Write your SEO title according to users inteded.</p>
+            <p>(5) Always include question mark(?) in your title if you answering in question.</p>
+            <p>(6) Always numeric in your SEO title to make it more effective and attractive.</p>
+            <p>(7) If you are doing SEO in any offer end date this.</p>
+
+						<p> <strong>Indexing</strong>- It is the process of submitting your website pages in Google’s database so that webpages can be found on SERP.</p>
+            <p>(1) Google webmasters tool</p>
+						<p>(2) By links </p>
+						<p>(3) Auto crawling by Google (web server) </p>
+						<h3> Indexing process-</h3>
+						   <p>(1) Crawling</p>
+							 <p>(2) Main Program</p>
+							 <p>(3) Database</p>
+							 <p>(4) Index</p>
+						<h3> Fuctions of search Engine </h3>
+						   <p> crawling</p>
+							 <p> Indexing</p>
+							 <p> Search</p>
 					</div>
-					<!-- post-excerpt -->
+					<!-- post-body -->
 				</article>
 				<!-- post -->
-			</main>
+
+				<div id="comments">
+					<div class="comments-wrap">
+
+
+						<!-- These comments will have an image and more information when we use WordPress -->
+
+
+						<!-- comments-list -->
+
+						<div id="leave-comment">
+							<h3>Leave a comment</h3>
+
+							<form>
+
+								<p class="comment-form-author">
+									<label>Name *</label>
+									<input id="author" type="text">
+								</p>
+								<p class="comment-form-email">
+									<label for="email">Email *</label>
+									<input id="email" type="email">
+								</p>
+								<p class="comment-form-url">
+									<label for="url">Website</label>
+									<input id="url" type="url">
+								</p>
+								<p class="comment-form-comment">
+									<label for="comment">Comment</label>
+									<textarea id="comment" cols="45" rows="8"></textarea>
+								</p>
+								<p class="form-submit">
+									<input name="submit" type="submit" id="submit" value="Post Comment">
+								</p>
+							</form>
+
+						</div>
+						<!-- leave-comment -->
+
+					</div>
+					<!-- comments -->
+				</div>
+				<!-- comments-wrap -->
+			</div>
 			<!-- content -->
 
 
 			<!-- SIDEBAR
 			================================================== -->
 			<aside class="col-sm-4" style="font-family:times;">
+
+
 				<!-- widget -->
 
 				<div class="widget">
 					<form role="form" class="search-form">
-						<label for="sidebar-search" class="sr-only">Search the blog</label>
-						<input type="text" placeholder="Search the blog..." id="sidebar-search">
+						<input type="text" placeholder="Search the blog...">
 					</form>
 				</div>
 				<!-- widget -->
 
 				<div class="widget">
-					<h4>Facebook Marketing For Business</h4>
-					<p>All size companies are penetrating Facebook’s massive community with Facebook Ads and Facebook Pages.</p>
+					<h4>On-Page SEO</h4>
+					<p>The first things google check in your websites by doing indexing is the information provided by the webmaster. Those information is optimise from your html architure also known as tag...</p>
 				</div>
 				<!-- widget -->
 
@@ -158,7 +211,7 @@
 					<h4>Recent Posts</h4>
 					<ul>
 						<li><a href="post.html">Facebook Marketing</a></li>
-						<li><a href="post1.html">Search Engine Optimisation</a></li>
+						<li><a href="post1.html">Search Engine Optimistation</a></li>
 					</ul>
 				</div>
 				<!-- widget -->
@@ -166,7 +219,7 @@
 				<div class="widget">
 					<h4>Categories</h4>
 					<ul>
-						<li><a href="post.html">Socail Media Marketing</a></li>
+						<li><a href="post.html">Social Media Marketing</a></li>
 						<li><a href="post1.html">SEO</a></li>
 					</ul>
 				</div>
@@ -179,7 +232,8 @@
 	</div>
 	<!-- container -->
 
-	<!-- SIGN UP SECTION
+
+	<!-- SIGNUP SECTION
 	================================================== -->
 	<section id="signup" data-type="background" data-speed="5">
 		<div class="container">
@@ -195,6 +249,7 @@
 		<!-- container -->
 	</section>
 	<!-- signup -->
+
 
 	<div id="social_footer" class="mobile-display">
 		<ul class="social-network social-circle">
@@ -288,7 +343,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-					<h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-envelope-alt"></span> Subscribe to our Mailing List</h4>
+					<h4 class="modal-title" id="myModalLabel"><i class="fa fa-envelope"></i> Subscribe to our Mailing List</h4>
 				</div>
 				<div class="modal-body">
 					<p>Simply enter your name and email! As a thank you for joining us, we're going to give you one of our best-selling courses, <em>for free!</em></p>
