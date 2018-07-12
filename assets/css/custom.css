@@ -775,7 +775,13 @@ footer li.signup-link a:hover {
 	position: relative;
 	left: 1px;
 }
+.footer-image-padding{
+padding-left:0px;
+}
+.footer-content-padding{
+	padding-left:5%;
 
+}
 /* ==== MEDIA QUERIES ==== */
 
 @media screen and (max-width : 991px) {
@@ -1177,6 +1183,11 @@ display: block;
 section{
 	padding: 20px 0;
 }
+.footer-image-padding{
+padding-left:5%;
+}
+.footer-content-padding{
+	padding-left:0px;
 
 }
 
