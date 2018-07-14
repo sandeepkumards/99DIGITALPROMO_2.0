@@ -1224,4 +1224,11 @@ padding-left:28%;
 	.font18{
 		font-size:12px!important;
 	}
+	body {
+    margin-top: 50px;
+    font-family: "nimbus-sans",sans-serif;
+    font-size: 15px;
+    background: url(../img/tile.jpg) top left repeat;
+    text-align: justify;
+}
 }
