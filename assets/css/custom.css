@@ -13,6 +13,7 @@ body {
 	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
 	font-size: 16px;
 	background: url('../img/tile.jpg') top left repeat;
+	text-align: justify;
 }
 
 /* ==== GLOBAL ==== */
@@ -782,6 +783,9 @@ padding-left:0px;
 	padding-left:5%;
 
 }
+.ml-30{
+	margin-left:-30px;
+}
 /* ==== MEDIA QUERIES ==== */
 
 @media screen and (max-width : 991px) {
@@ -1176,6 +1180,9 @@ display: block;
 .pl10{
 	padding-left: 31%;
 }
+.ml-30{
+	margin-left: 0px;
+}
 #price-timeline {
 	margin: 0px!important;
 	text-align: center;
@@ -1195,6 +1202,6 @@ padding-left:5%;
 
 @media screen and (max-width : 1439px) {
 	.font18{
-		font-size: 11px;
+		font-size:12px!important;
 	}
 }
