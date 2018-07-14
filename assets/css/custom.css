@@ -10,8 +10,8 @@ Blue Gray:  #3e4249
 
 body {
 	margin-top: 50px;
-	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
-	font-size: 16px;
+	font-family: "nimbus-sans",sans-serif;
+	font-size: 17px;
 	background: url('../img/tile.jpg') top left repeat;
 	text-align: justify;
 }
@@ -1159,6 +1159,11 @@ ul.social-network li {
 }
 
 
+
+
+
+
+
 .desktop-display{
 display: block;
 }
@@ -1191,10 +1196,21 @@ section{
 	padding: 20px 0;
 }
 .footer-image-padding{
-padding-left:5%;
+padding-left:28%;
 }
 .footer-content-padding{
 	padding-left:0px;
+}
+
+#price-timeline .price {
+    display: inline-block;
+    width: 30%;
+    margin: 0 2% 0 0;
+    background: #3e4249;
+    padding: 4px 12px 5px;
+    position: relative;
+    vertical-align: top;
+}
 
 }
 
