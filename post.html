@@ -133,24 +133,32 @@
 						<div id="leave-comment">
 							<h3>Leave a comment</h3>
 
-							<form>
-
+							<form action="https://formspree.io/99digitalpromo@gmail.com" method="POST" class="clearfix">
+								<p>Your email address will not be published. Required fields are marked <span class="required">*</span></p>
 								<p class="comment-form-author">
 									<label>Name *</label>
-									<input id="author" type="text">
+									<input name="Name"  id="author" type="text">
 								</p>
 								<p class="comment-form-email">
 									<label for="email">Email *</label>
-									<input id="email" type="email">
+									<input name="Email" id="email"  type="email">
 								</p>
 								<p class="comment-form-url">
 									<label for="url">Website</label>
-									<input id="url" type="url">
+									<input name="Website" id="url"  type="url">
 								</p>
 								<p class="comment-form-comment">
 									<label for="comment">Comment</label>
-									<textarea id="comment" cols="45" rows="8"></textarea>
+									<textarea  name="Comment" id="comment" cols="45" rows="8"></textarea>
 								</p>
+
+								<div class="form-group">
+									<input  type="hidden" name="subject" value="Facebook Marketing Is Important for Business" class="form-control" id="InputSubject" placeholder="Subject">
+								</div>
+								<div class="form-group">
+										<input type="hidden" name="_next" value="http://99digitalpromo.com/thanks.html" />
+								</div>
+
 								<p class="form-submit">
 									<input name="submit" type="submit" id="submit" value="Post Comment">
 								</p>
