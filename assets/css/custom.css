@@ -1216,6 +1216,19 @@ padding-left:28%;
     vertical-align: top;
 }
 
+#hero {
+    background: url(../img/bg8.jpg) 50% 0 repeat fixed;
+    min-height: 460px;
+    /* position: relative; */
+    display: table;
+    width: 100%;
+    padding: 0px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-size: 8px;
+}
+
 }
 
 /*mac media query*/
