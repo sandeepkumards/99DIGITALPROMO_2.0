@@ -801,7 +801,7 @@ padding-left:0px;
 
 @media screen and (max-width : 768px) {
 	.logo {
-		width: 50%;
+		width: 95%;
 	}
 
 	#optin p {
@@ -1230,7 +1230,7 @@ padding-left:28%;
 }
 
 .lead {
-    margin-bottom: 14px;
+    margin-bottom: 24px;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.4;
@@ -1238,8 +1238,19 @@ padding-left:28%;
 
 #social_footer ul {
     margin: 0;
-    padding: 0 0 0 0;
+    padding: 15px 0 15px 0;
     text-align: center;
+}
+
+.heading1 {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Raleway-ExtraBold';
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+		padding-bottom: 47px;
+		padding-top: 15px;
 }
 
 }
