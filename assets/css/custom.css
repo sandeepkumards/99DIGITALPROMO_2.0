@@ -1229,6 +1229,19 @@ padding-left:28%;
     font-size: 8px;
 }
 
+.lead {
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+#social_footer ul {
+    margin: 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
 }
 
 /*mac media query*/
