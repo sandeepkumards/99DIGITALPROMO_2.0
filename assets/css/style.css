@@ -175,7 +175,7 @@ button:focus,
     }
 
 .left-col-block {
-    width      : 50%;
+    width      : 50%;;
     text-align : center;
     overflow   : hidden;
     position   : fixed;
