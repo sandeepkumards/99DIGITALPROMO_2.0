@@ -286,7 +286,7 @@ form textarea {
     height: 5px;
     background: #fcd001;
     left: 0;
-    margin-top: 13px;
+    margin-top: 6px;
     margin-left: -64px;
 }
 
@@ -297,13 +297,13 @@ form textarea {
     height: 5px;
     background: #fcd001;
     right: 0;
-    margin-top: 13px;
+    margin-top: 6px;
     margin-right: -64px;
 }
 
 .heading1 {
-    color: #fff;
-    font-size: 30px;
+    color: orangered;
+    font-size: 15px;
     font-family: 'Raleway-ExtraBold';
     text-transform: uppercase;
     position: relative;
@@ -317,7 +317,7 @@ form textarea {
 /* Food Menu Grid Styles Starts */
 
 .food-menu-grid {
-	margin-top: 60px;
+	margin-top: 2%;
 }
 	.food-menu-grid .hover-content {
 		margin-top: 15px;
